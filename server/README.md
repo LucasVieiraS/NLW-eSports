@@ -29,3 +29,8 @@ Handles getting game information and ads for the application.
 >- createdAt<br>
 
 ## Use Case
+
+- Listing games with ad count;
+- Creating new ads;
+- Listing new ads per game;
+- Search Discord by ad ID;
