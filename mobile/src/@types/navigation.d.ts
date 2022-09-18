@@ -4,7 +4,7 @@ export declare global {
             home: undefined;
             game: {
                 id: string;
-                titulo: string;
+                title: string;
                 bannerUrl: string;
             };
         }

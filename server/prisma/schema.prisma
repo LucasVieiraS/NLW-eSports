@@ -12,7 +12,7 @@ datasource db {
 
 model Game {
   id        String @id @default(uuid())
-  titulo    String
+  title     String
   bannerUrl String
 
   ads Ad[]

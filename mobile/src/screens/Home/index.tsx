@@ -16,8 +16,8 @@ export function Home() {
 
   const navigation = useNavigation();
 
-  function handleOpenGame({id, titulo, bannerUrl}: GameCardProps) {
-    navigation.navigate('game', { id, titulo, bannerUrl });
+  function handleOpenGame({id, title, bannerUrl}: GameCardProps) {
+    navigation.navigate('game', { id, title, bannerUrl });
   }
 
   useEffect(() => {

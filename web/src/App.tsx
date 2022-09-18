@@ -11,7 +11,7 @@ import { Input } from "./components/Form/Input";
 
 interface Game {
   id: string;
-  titulo: string;
+  title: string;
   bannerUrl: string;
   _count: {
     ads: number;
@@ -47,7 +47,7 @@ function App() {
             <GameBanner
               key={game.id}
               bannerUrl={game.bannerUrl}
-              title={game.titulo}
+              title={game.title}
               adsCount={game._count.ads}
             />
           );
