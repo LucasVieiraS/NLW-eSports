@@ -14,7 +14,7 @@
 
 
 ## Preview:
-<img src="https://github.com/LucasVieiraS/NLW-eSports/blob/main/web/preview.png">
+<img src="https://github.com/LucasVieiraS/NLW-eSports/blob/main/assets/nlw-esports-web.png?raw=true">
 
 
 ## Quickstart
