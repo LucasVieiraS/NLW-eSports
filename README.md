@@ -47,7 +47,7 @@
 >Now, in order to run the mobile application you'll need to install [expo-cli](https://docs.expo.dev/workflow/expo-cli/)
 >```sh
 >$ npm install
->$ npm run dev
+>$ expo start
 >```
 
 ## Documentation:
