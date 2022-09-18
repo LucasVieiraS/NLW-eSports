@@ -9,7 +9,7 @@
   Built during the <a href="https://github.com/Rocketseat"><strong>@Rocketseat</strong></a> <a href="https://lp.rocketseat.com.br/nlw?referralId=lucas-75728"><strong>NLW eSports</strong></a> event.
 </p>
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/OPEN-SOURCE-6c21a6?style=for-the-badge" alt="Open Source Shield"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/-YOUR%20DUO%20IS%20HERE.-4a357d?style=for-the-badge" alt="'Your duo is here' Shield"></a>
 </p>
 
 
