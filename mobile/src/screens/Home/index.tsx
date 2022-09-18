@@ -11,6 +11,8 @@ import { Heading } from '../../components/Heading';
 
 import { styles } from './styles';
 
+import axios from 'axios'
+
 export function Home() {
   const [games, setGames] = useState<GameCardProps[]>([]);
 
@@ -21,9 +23,7 @@ export function Home() {
   }
 
   useEffect(() => {
-    fetch('http://192.168.1.8:3333/games')
-      .then(response => response.json())
-      .then(data => setGames(data))
+    axios('http://192.168.1.8:3333/games').then(response => setGames(response.data))
   }, [])
 
   return (
