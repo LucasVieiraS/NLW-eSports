@@ -30,7 +30,7 @@ export function Game() {
 
   async function getDiscordUser(adsId: string) {
     useEffect(() => {
-      axios(`http://192.168.1.8:3333/ads/${adsId}/discord`).then(response => setDuos(response.data))
+      axios(`http://192.168.1.8:3333/ads/${adsId}/discord`).then(response => setDiscordDuoSelected(response.data.discord))
     }, [])
   }
 
@@ -79,7 +79,7 @@ export function Game() {
             renderItem={({item}) => (
               <DuoCard 
                 data={item} 
-                onConnect={() => {}}
+                onConnect={() => getDiscordUser(item.id)}
               />
             )}
             horizontal
@@ -95,7 +95,7 @@ export function Game() {
 
           <DuoMatch 
             visible={discordDuoSelected.length > 0}
-            discord=""
+            discord={discordDuoSelected}
             onClose={() => setDiscordDuoSelected('')}
           />
         </SafeAreaView>
