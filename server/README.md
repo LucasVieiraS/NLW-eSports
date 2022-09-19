@@ -1,4 +1,5 @@
 # Back-end
+
 Handles getting game information and ads for the application.
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -7,7 +8,7 @@ Handles getting game information and ads for the application.
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)<br>
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
-### Entities:
+## Entities:
 
 ```/games```
 
@@ -28,7 +29,7 @@ Handles getting game information and ads for the application.
 >- useVoiceChannel<br>
 >- createdAt<br>
 
-### Use Case
+## Use Case
 
 - Listing games with ad count;
 - Creating new ads;
