@@ -47,7 +47,6 @@ export function Home() {
           contentContainerStyle={styles.contentList}
         />
 
-
       </SafeAreaView>
     </Background>
   );
