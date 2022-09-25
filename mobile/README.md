@@ -7,7 +7,7 @@
 
 <img src="https://github.com/LucasVieiraS/NLW-eSports/blob/main/assets/mobile-preview.png?raw=true">
 
-## Teck-stack
+## Tech-stack
 - [Expo](https://expo.dev/)
 - [Phosphor React](https://phosphoricons.com/)
 
